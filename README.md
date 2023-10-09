@@ -1,6 +1,6 @@
 # Ansible Role: Packer
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-packer/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-packer/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-packer/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-packer/actions/workflows/ci.yml)
 
 Installs [Packer](https://www.packer.io), a Go-based image and box builder.
 
@@ -41,4 +41,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-

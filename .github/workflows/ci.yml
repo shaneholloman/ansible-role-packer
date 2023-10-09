@@ -43,8 +43,9 @@ jobs:
       matrix:
         distro:
           - rockylinux8
-          - centos7
+          - centos8
           - ubuntu2004
+          - ubuntu2204
           - debian11
 
     steps:
