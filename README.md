@@ -1,4 +1,4 @@
-# Ansible Role: Packer
+# Ansible Role: `packer`
 
 [![CI](https://github.com/shaneholloman/ansible-role-packer/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-packer/actions/workflows/ci.yml)
 
@@ -12,15 +12,21 @@ None.
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    packer_version: "1.0.0"
+```yml
+packer_version: "1.0.0"
+```
 
 The Packer version to install.
 
-    packer_arch: "amd64"
+```yml
+packer_arch: "amd64"
+```
 
 The system architecture (e.g. `386` or `amd64`) to use.
 
-    packer_bin_path: /usr/local/bin
+```yml
+packer_bin_path: /usr/local/bin
+```
 
 The location where the Packer binary will be installed (should be in system `$PATH`).
 
@@ -30,13 +36,15 @@ None.
 
 ## Example Playbook
 
-    - hosts: servers
-      roles:
-        - shaneholloman.packer
+```yml
+- hosts: servers
+    roles:
+    - shaneholloman.packer
+```
 
 ## License
 
-MIT / BSD
+Unlicense
 
 ## Author Information
 
